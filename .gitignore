@@ -1,1 +1,11 @@
-ECHO is on.
+# Ignore node_modules directory for kafka-producer
+/kafka-producer/node_modules/
+
+# Ignore Airflow data
+/airflow-data/
+
+# Ignore DAGs directory (if you don't need to track it)
+#/dags/
+
+# Ignore large data file
+/ecommerce_data.csv
